@@ -161,7 +161,7 @@ class Calendar extends Component {
                             header={{
                                 left: 'prev,next today',
                                 center: 'title',
-                                right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+                                right: 'dayGridMonth'
                             }}
                             plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
                             ref={this.calendarComponentRef}
