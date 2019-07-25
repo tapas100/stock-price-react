@@ -1,0 +1,39 @@
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+@import "~@fullcalendar/timegrid/main.css";
+body {
+  background: #fff;
+}
+#full-calendar {
+  padding-top: 20px;
+}
+
+.fc-view-container {
+  z-index: 0;
+}
+
+
+.fc-button-group button {
+  border-radius: 0px;
+}
+
+.fc td,
+.fc th {
+  vertical-align: bottom;
+}
+.fc-content-skeleton,
+.fc-content-skeleton table {
+  // height: inherit;
+}
+.fc-event-container {
+}
+.fc-content-skeleton .fc-event-container a {
+  .fc-content {
+    padding: 0.2em;
+    font-size: 1.1em;
+  }
+}
+.fc-event {
+  border: none;
+  background-color: transparent;
+}
