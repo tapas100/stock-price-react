@@ -1,3 +1,7 @@
+[![version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://semver.org)
+
+# Stock Price React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
